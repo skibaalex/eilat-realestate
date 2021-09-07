@@ -20,3 +20,4 @@ jobs:
             cd realestate
             git clone https://github.com/skibaalex/eilat-realestate.git
             echo "Cloned Succesfully"
+            $({secrets.SSH_KEY})
